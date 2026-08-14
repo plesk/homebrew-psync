@@ -1,16 +1,16 @@
 class Psync < Formula
   desc "A utility to sync source code with a remote machine"
   homepage "https://github.com/plesk/psync"
-  version "0.0.3"
+  version "0.0.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/plesk/psync/releases/download/v0.0.3/psync_0.0.3_darwin_arm64.tar.gz"
-      sha256 "31b219aff64a95ac98ce30d50186dbad2b9af9e1872071c68f4344503c77d2f7"
+      url "https://github.com/plesk/psync/releases/download/v0.0.4/psync_0.0.4_darwin_arm64.tar.gz"
+      sha256 "541e16f95d263edb17d3f8d417fa9b65707de5c9dfa79c66f6e18363af756dcd"
     end
     on_intel do
-      url "https://github.com/plesk/psync/releases/download/v0.0.3/psync_0.0.3_darwin_amd64.tar.gz"
-      sha256 "956813ab11709d4640f6d42ef3f17c1853b9ddd075d465eb8abbb5dd2812b94a"
+      url "https://github.com/plesk/psync/releases/download/v0.0.4/psync_0.0.4_darwin_amd64.tar.gz"
+      sha256 "74737715db7e3d922558342cb4326d93ade8cdb864a5ea97c9fb5f92478dbf94"
     end
   end
 
